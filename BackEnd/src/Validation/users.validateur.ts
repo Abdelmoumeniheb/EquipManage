@@ -1,7 +1,7 @@
-const isEmpty = require("./isEmpty");
+import { isEmpty } from "./isEmpty";
 const Validator = require("validator");
 module.exports= function ValidateUser(data){
-let errors={};
+let errors:any={};
 data.Email=!isEmpty(data.Email)?data.Email:'';
 data.Lastname=!isEmpty(data.Lastname)?data.Lastname:'';
 data.Firstname=!isEmpty(data.Firstname)?data.Firstname:'';

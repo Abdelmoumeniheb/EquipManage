@@ -1,4 +1,4 @@
-const express = require('express');
+import * as express from 'express';
 const router = express.Router();
 const {RegisterAuth,LoginAuth,LogoutAuth,GetAuth}= require('../controllers/Auths.controller');
 /* add Auth */

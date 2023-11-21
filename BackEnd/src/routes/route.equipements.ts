@@ -1,4 +1,4 @@
-const express = require('express');
+import * as express from 'express';
 const router = express.Router();
 const {AddEqui,FindAllEquis, FindSinglEqui, FilterEquis,DeleteEqui} = require('../controllers/Equis.controller');
 /* add user */
