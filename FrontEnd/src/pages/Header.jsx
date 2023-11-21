@@ -26,7 +26,7 @@ if(redirect){
 <nav className="bg-white border-gray-200 dark:bg-gray-900">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <Link to="/Employes" class="flex items-center">
-        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Vivo_Energy_logo.svg/1280px-Vivo_Energy_logo.svg.png" class="mr-3 h-6 sm:h-9" alt="Vivi Energy Logo" />
+        <h1>EquipManage</h1>
   </Link>
   <div class="flex items-center md:order-2">
       <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
